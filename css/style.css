@@ -1,11 +1,20 @@
 body{
     text-align: center;
+    background-color: gainsboro;
 }
 
 h1{
     color:coral;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 a{
-    
+    position: absolute;
+    top: 70%; 
+    left: 40%;
+    font-size: 40px;
 }
+
+ 
