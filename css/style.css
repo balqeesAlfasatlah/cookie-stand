@@ -17,11 +17,96 @@ h2{
 }
 
 
-a{
+
+section{
+    margin-left: 30px;
+    
+    
+}
+
+.one p{
+
+   margin-top: 30px;
+   text-align: left;
+   color: coral;
+  
+}
+
+span
+{
+    color:lightcoral;
+    font-weight: bold;
+}
+.two {
+    text-align: center;
+    margin-top: 30px;
+    color: lightcoral;
+    font-size: 40px;
+}
+ 
+
+img{
+    width: 250px;
+}
+
+.three {
+    margin: 50px;
+    display: flex;
+    border: 2px solid #0006;
+    justify-content: space-between;
+    border: 2px solid coral;
+}
+
+ .contact {
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.contact{
+    background-color: coral;
+    display: flex;
+    
+    
+}
+
+.contact img{
+    width: 300px;
+}
+
+.contact p{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: wheat;
+}
+.contact a{
+    margin-top: 200px;
     position: absolute;
-    top: 70%; 
-    left: 40%;
+    left:50%;
     font-size: 40px;
 }
 
- 
+footer{
+    margin: 30px;
+    color: coral;
+}
+
+table{
+    border: 2px solid coral;
+    font-family: arial, sans-serif;
+    width: 80%;
+    margin:  100px 150px;
+    padding:10px;
+    
+}
+ table,th,td{
+    border: 2px solid coral;
+ }
+
+ table th{
+     color:blue;
+     font-weight: bold;
+ }
