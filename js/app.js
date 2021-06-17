@@ -3,6 +3,7 @@ const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm',
 
 let locations = document.getElementById('main-div');
 let salesTable = document.getElementById('salesTable');
+let cookiesForm = document.getElementById('cookieForm');
 
 
 function CookieStand(name,minCust,maxCust,avgCookie){
@@ -116,6 +117,24 @@ CookieStand.prototype.render = function(){
     }
 
 
+    function addCity(evt){
+        evt.preventDefault();
+
+        let cityName = evt.target.cityName.value;
+        let minCus = evt.target.minCus.value;
+        let maxCus = evt.target.maxCus.value;
+        let avgCookie = evt.target.avgCookie.value;
+
+        salesTable.deleteRow(-1);
+        let  newCity  = new CookieStand(cityName,minCus,maxCus,avgCookie);
+        newCity.getCustomer();
+        newCity.render();
+        makeTableFooter();
+
+
+        }
+
+    cookiesForm.addEventListener('submit', addCity);
 
 
  let seattle = new CookieStand('Seattle',23,65,6.3,6,20);
@@ -123,6 +142,8 @@ CookieStand.prototype.render = function(){
      let dubai = new CookieStand('dubai',11,38,3.7,6,20);
      let paris = new CookieStand('paris',20,38,2.3,6,20);
      let lima = new CookieStand('lima',2,16,4.6,6,20);
+
+
 
 makeTableHeader();
 
