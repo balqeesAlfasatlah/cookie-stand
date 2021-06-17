@@ -1,3 +1,5 @@
+
+
 body{
     text-align: center;
     background-color: gainsboro;
@@ -8,12 +10,14 @@ h1{
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
-    color: coral;
+    color:blue;
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 40px;
+    font-family:'Zilla Slab Highlight', cursive;
 }
 
 
@@ -29,13 +33,14 @@ section{
    margin-top: 30px;
    text-align: left;
    color: coral;
+   font-family: ;
   
 }
 
 span
 {
     color:lightcoral;
-    font-weight: bold;
+    font-family:'Zilla Slab Highlight', cursive;
 }
 .two {
     text-align: center;
@@ -57,37 +62,41 @@ img{
     border: 2px solid coral;
 }
 
- .contact {
+ .about {
     height: 300px;
     width: 100%;
 }
 
 
 
-.contact{
+.about{
     background-color: coral;
     display: flex;
     
     
 }
 
-.contact img{
+.about img{
     width: 300px;
 }
 
-.contact p{
+.about p{
     padding-top: 50px;
     padding-left: 50px;
     font-size: 25px;
     line-height: 1.5;
-    color: wheat;
+    color:white;
+    
 }
-.contact a{
+.about a{
     margin-top: 200px;
     position: absolute;
     left:50%;
     font-size: 40px;
 }
+
+
+
 
 footer{
     margin: 30px;
@@ -106,7 +115,43 @@ table{
     border: 2px solid coral;
  }
 
+ table td{
+     font-family:Arial, Helvetica, sans-serif;
+     color:gray;
+ }
+
  table th{
      color:blue;
      font-weight: bold;
+ }
+
+ fieldset{
+     background-color: gray;
+ }
+ fieldset legend {
+     position: relative;
+     top:30px;
+     font-family:'Zilla Slab Highlight', cursive;
+     color:cornflowerblue;
+     
+ }
+ form{
+     margin-top: 50px;
+     padding: 10px;
+     color: coral;
+     
+ }
+ 
+
+ input{
+     margin: 10px;
+     
+ }
+
+ button{
+     background-color: darkorange;
+     color: white;
+     margin-top:16px;
+     padding: 5px 130px;
+     font-size: 20px;
  }
